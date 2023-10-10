@@ -147,7 +147,7 @@ const projects = [
         name: 'Video Player',
         image: '20',
         textOne: 'A video player app. Video volume can be changed. Video playback speed can be changed. Video can be fit to fullscreen. Video controls appears hen cursor reaches near bottom of player. Video can be paused/play on click on player.',
-        textTwo: 'Video was my attempt to no-hit the boss who is in top 5 hardest bosses in video gaming history. Very Cool.',
+        textTwo: 'Video was my attempt to no-hit the boss who is in top 5 hardest bosses in video gaming history. Update: Could not upload because of size limit. Very Cool. Here are Clouds.',
         link: '/Projects/video-player/index.html'
     },
     {
