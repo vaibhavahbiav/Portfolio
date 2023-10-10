@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+body {
+    margin: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1030%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(10%2c 10%2c 10%2c 1)'%3e%3c/rect%3e%3cpath d='M293.16 334.76L296.68 334.76L296.68 338.28L293.16 338.28z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M283.69 280L302.32 280L302.32 294.92L283.69 294.92z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M944.36 240.74a29.58 29.58 0 1 0 41.32-42.34z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1222.19 54.39a39.48 39.48 0 1 0 54.54-57.1z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1140.55 500.85a6.04 6.04 0 1 0-9.1-7.94z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M494.23 446.97L523.96 446.97L523.96 476.7L494.23 476.7z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M697.12 504.82L747.79 504.82L747.79 555.49L697.12 555.49z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1439.97 496.48a34.79 34.79 0 1 0-16.67-67.56z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M294.94 25.74 a41.87 41.87 0 1 0 83.74 0 a41.87 41.87 0 1 0 -83.74 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1378.56 452L1425.03 452L1425.03 498.47L1378.56 498.47z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M491.77 332.95L521.21 332.95L521.21 362.39L491.77 362.39z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1359.95 467.9a2.23 2.23 0 1 0 3.68-2.51z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M97.64 197.61L127.87 197.61L127.87 216.98L97.64 216.98z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M661.75 86.49 a18.84 18.84 0 1 0 37.68 0 a18.84 18.84 0 1 0 -37.68 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M39.5 218.78L92.05 218.78L92.05 271.33L39.5 271.33z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M360.38 474.28L404.45 474.28L404.45 514.19L360.38 514.19z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M109.71 271.75a39.9 39.9 0 1 0 13.79 78.6z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M556.85 89.04 a31.2 31.2 0 1 0 62.4 0 a31.2 31.2 0 1 0 -62.4 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M256.83 312.74a23.56 23.56 0 1 0 9.31 46.2z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M809.71 11.1 a5.94 5.94 0 1 0 11.88 0 a5.94 5.94 0 1 0 -11.88 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M423.83 259.15 a0.27 0.27 0 1 0 0.54 0 a0.27 0.27 0 1 0 -0.54 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M977.74 556.32 a21.6 21.6 0 1 0 43.2 0 a21.6 21.6 0 1 0 -43.2 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M706.76 280.3L750.49 280.3L750.49 307.99L706.76 307.99z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M59.84 5.78a1.99 1.99 0 1 0 3.98-0.28z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M229.2 459.01L244.7 459.01L244.7 474.51L229.2 474.51z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M949.31 29.55L979.87 29.55L979.87 45.02L949.31 45.02z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1296.94 207.92a30.28 30.28 0 1 0 58.86 14.28z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1011.34 410.61 a55.16 55.16 0 1 0 110.32 0 a55.16 55.16 0 1 0 -110.32 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M641.32 241.55L693.6 241.55L693.6 293.83L641.32 293.83z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M127.48 212.05L168.74 212.05L168.74 231.08L127.48 231.08z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1248.67 321.7L1251.53 321.7L1251.53 352.95L1248.67 352.95z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M462.3 280.67a43.89 43.89 0 1 0-70.69-52.04z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M511.4 226.68a23.66 23.66 0 1 0 24.91-40.23z' stroke='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1030'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");    display: flex;
+    justify-content: center;
+    font-family: 'Martian Mono', Courier, monospace;
+}
+
+canvas {
+    margin-top: 25px;
+    z-index: 10;
+}
+
+.game-over-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    background-color: rgb(56, 56, 56);
+    margin-top: -4px;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+button {
+    cursor: pointer;
+    color: rgb(56, 56, 56);
+    background-color: rgb(195, 195, 195);
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Martian Mono", Courier, monospace;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Montior and Larger */
+@media screen and (min-width: 1800px) {
+    canvas {
+        margin-top: 100px;
+    }
+
+    .game-over-container {
+        margin-top: -19px;
+    }
+}
+
+/* Large Smartphone (Vertical) */
+@media screen and (max-width: 500px) {
+    canvas {
+        width: 100%;
+        height: 700px;
+        margin-top: 50px;
+    }
+
+    .game-over-container {
+        width: 100%;
+        height: 700px;
+    }
+}

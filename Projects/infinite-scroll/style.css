@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* min-width: 100vh; */
+    font-family: Unna, sans-serif;
+    background-color: #fde7d0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    /* background: #fc9b31;
+    color: #fde7d0; */
+}
+
+span{
+    background-color: #fc9b31;
+    color: #fde7d0;
+}
+
+/* loader */
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 216, 175, 0.76);
+}
+
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* image container */
+.image-container{
+    margin: 10px 20%;
+}
+
+.image-container img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* for phones and tablets */
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 3rem;
+        margin: 25px 10px;
+    }
+
+    .image-container{
+        margin: 10px;
+    }
+}

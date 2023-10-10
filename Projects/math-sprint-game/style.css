@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Mono&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(255, 172, 77);
+    --select-color: rgb(255, 172, 77);
+    --success: rgb(95, 170, 88);
+    --danger: rgb(211, 77, 77);
+}
+
+body {
+    margin: 0;
+    font-family: 'Red Hat Mono', sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='80' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(60, 100%, 93%, 1)'/><path d='M0 10h20z'   stroke-width='0.5' stroke='hsla(258.5,59.4%,59.4%,1)' fill='none'/><path d='M0 30h20z'   stroke-width='0.5' stroke='hsla(339.6,82.2%,51.6%,1)' fill='none'/><path d='M0 50h20z'   stroke-width='0.5' stroke='hsla(198.7,97.6%,48.4%,1)' fill='none'/><path d='M0 70h20z'   stroke-width='0.5' stroke='hsla(47,80.9%,61%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,-22)' fill='url(%23a)'/></svg>");
+}
+
+.game-container {
+    border: 1px solid black;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+    width: 530px;
+    height: 685px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    user-select: none;
+    margin-top: 100px;
+}
+
+.header {
+    background: var(--primary-color);
+    color: white;
+    font-family: 'Red Hat Mono', sans-serif;
+    font-size: 24px;
+    text-shadow: 1px 2px 2px black;
+    letter-spacing: 2px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 5px auto 10px;
+    height: 600px;
+}
+
+/* Splash Page -------------------- */
+input[type="radio"] {
+    opacity: 0;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    top: -40px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.selection-container {
+    position: relative;
+    top: 65px;
+}
+
+.radio-container {
+    width: 90%;
+    height: 75px;
+    margin: 25px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+label {
+    position: relative;
+    top: 13px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.selected-label {
+    background: var(--select-color);
+    color: white;
+}
+
+.best-score {
+    position: relative;
+    top: -115px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    max-width: fit-content;
+}
+
+.best-score span {
+    margin: 0;
+}
+
+.best-score span:last-child {
+    font-size: 24px;
+}
+
+.selection-footer {
+    top: 68px;
+}
+
+/* Game Page -------------------------- */
+.height-240 {
+    height: 240px;
+    width: 100%;
+}
+
+.height-500 {
+    height: 500px;
+    width: 100%;
+}
+
+.item-container {
+    height: 552px;
+    overflow-y: scroll;
+    position: relative;
+    -ms-overflow-style: none;
+}
+
+.item-container::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 50px;
+    user-select: none;
+}
+
+.finished>h1 {
+    opacity: 0.5;
+}
+
+.selected-item {
+    background: var(--select-color);
+    position: fixed;
+    top: 443px;
+    z-index: -1;
+    width: 529px;
+    height: 80px;
+}
+
+.item-footer,
+.selection-footer {
+    width: 100%;
+    height: 90px;
+    background: rgb(255, 172, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.selection-footer{
+    top: 3px;
+}
+
+.item-footer{
+    bottom: 64px;
+}
+
+.selection-footer:hover{
+    filter: brightness(110%);
+}
+
+button {
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Red Hat Mono', sans-serif;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    border: none;
+    outline: none;
+}
+
+.item-footer button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.wrong,
+.right {
+    width: 40%;
+}
+
+.wrong {
+    background: var(--danger);
+    margin-right: 25px;
+}
+
+.right {
+    background: var(--success);
+}
+
+.start,
+.play-again {
+    width: 90%;
+    background: var(--primary-color);
+}
+
+.play-again{
+        height: 90px;
+        width: 100%;
+        border-radius: 0;
+}
+
+/* Countdown Page ---------------------- */
+.countdown {
+    margin-top: 45%;
+    font-size: 100px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Score Page ------------------------- */
+.score-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-footer {
+    width: 100%;
+    height: 90px;
+    /* background: rgb(255, 172, 77); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 112px;
+}
+
+.title {
+    font-size: 45px;
+    margin: 0 0 10px 0;
+}
+
+.final-time {
+    font-size: 100px;
+    margin: 0;
+    color: var(--success);
+}
+
+.base-time {
+    margin-top: 44px;
+    margin-bottom: 0;
+}
+
+.penalty-time {
+    color: var(--danger);
+}
+
+/* Media Query: Laptop */
+@media screen and (max-width: 1800px) {
+    .game-container {
+        margin-top: 35px;
+    }
+
+    .selected-item {
+        top: 380px;
+    }
+}
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 500px) {
+    .game-container {
+        width: 100%;
+        margin-top: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        box-shadow: none;
+    }
+
+    .selected-item {
+        top: 350px;
+    }
+
+    .header {
+        font-size: 1.2rem;
+    }
+
+    .countdown {
+        margin-top: 60%;
+    }
+
+    .selection-container {
+        top: 100px;
+    }
+
+    .radio-container {
+        width: 93%;
+        margin: 15px;
+    }
+
+    label {
+        font-size: 1.7rem;
+    }
+
+    .best-score {
+        font-size: 1rem;
+        left: 245px;
+    }
+
+    .selection-footer {
+        top: 18px;
+    }
+}
+
+/* Media Query: iPhone */
+@media screen and (max-width: 376px) {
+    h1{
+        font-size: 1.8em;
+    }
+    
+    .best-score {
+        left: 232px;
+    }
+}

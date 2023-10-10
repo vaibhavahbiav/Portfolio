@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ysabeau+SC&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 100vh;
+    font-family: Ysabeau SC, sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #caedef;
+}
