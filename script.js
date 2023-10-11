@@ -197,7 +197,7 @@ function showProjectInfo() {
             }else{
                 toProject.hidden = false;
                 toProject.href = `${projects[i].link}`;
-                // console.log(projects[i].link);
+                console.log(projects[i].link);
             }
         }
     }
