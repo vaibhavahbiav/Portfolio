@@ -71,7 +71,7 @@ const projects = [
         image: '9',
         textOne: 'An app which tells you a random joke from JOKEAPI and a Text-to-Speech API to narrate that joke.',
         textTwo: 'Joke-yness is sometimes not joke-y but the narration compensated for that. The Joker just wants you to smile thats all.',
-        link: 'https://vaibhavahbiav.github.io/Joke-Teller/',
+        link: 'https://vaibhavahbiav.github.io/Joke-Teller',
     },
     {
         name: 'Light-Dark Mode',
