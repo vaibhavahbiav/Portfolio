@@ -208,13 +208,13 @@ const projectInfo = document.getElementById('project-info');
 
 
 // copy phone number on click
-function showCopied() {
-    navigator.clipboard.writeText('9828247087');
-    phone.textContent = "Copied.";
-    setTimeout(() => {
-        phone.textContent = "Click to copy";
-    }, 2000);
-}
+// function showCopied() {
+//     navigator.clipboard.writeText('9828247087');
+//     phone.textContent = "Copied.";
+//     setTimeout(() => {
+//         phone.textContent = "Click to copy";
+//     }, 2000);
+// }
 
 let music = false;
 let currentVolume = '0.1';
@@ -433,7 +433,7 @@ resume.addEventListener('click', () => {
 
 // event listeners
 musicControl.addEventListener('click', musicOn);
-phone.addEventListener('click', showCopied);
+// phone.addEventListener('click', showCopied);
 volumeSlider.addEventListener('input', volumeFnc);
 particleToggle.addEventListener('click', particleControl);
 exit.addEventListener('click', showExitPrompt);
